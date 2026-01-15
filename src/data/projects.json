@@ -1,0 +1,105 @@
+{
+  "featured": [
+    {
+      "id": "portfolio",
+      "title": "Personal Portfolio",
+      "subtitle": "Design. Code. Showcase.",
+      "description": "A modern, responsive portfolio built to showcase my projects, skills, and experience. Features smooth animations, a dynamic project carousel, and a clean UI focused on clarity, performance, and developer-friendly structure.",
+      "image": "/images/projects/portfolio.png",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Framer Motion",
+        "CSS"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
+      "liveUrl": null
+    },
+    {
+      "id": "league-of-beans",
+      "title": "League of Beans",
+      "subtitle": "Fast-paced FPS with champion-style abilities",
+      "description": "An open-source, fan-inspired first-person shooter that blends fast, competitive gunplay with unique, champion-like abilities inspired by popular MOBA mechanics. Players choose distinct characters, battle in vibrant arenas, and experience chaotic, skill-based FPS combat.",
+      "image": "/images/projects/leagueofbeans-hero.gif",
+      "tags": [
+        "Unity",
+        "C#",
+        "FPS",
+        "Game Design",
+        "Open Source"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
+      "liveUrl": null
+    },
+    {
+      "id": "men-day",
+      "title": "Men DAY",
+      "subtitle": "Multiplayer FPS in Active Development",
+      "description": "Men DAY is an open-source multiplayer first-person shooter currently in active development, built in Unity using Mirror networking. The project centers on fast, responsive gunplay and modern FPS mechanics, including recoil systems, aim-down-sights (ADS), weapon sway, head bobbing, modular weapon switching, and randomized attachments. Men DAY is designed as an evolving FPS project, with a strong technical foundation and ongoing iteration toward refined combat, expanded gameplay systems, and multiplayer-focused experiences.",
+      "image": null,
+      "tags": [
+        "Unity",
+        "C#",
+        "FPS",
+        "Multiplayer",
+        "Mirror Networking",
+        "Game Development",
+        "Open Source"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
+      "liveUrl": null
+    }
+  ],
+  
+  "all": [
+    {
+      "id": "portfolio",
+      "title": "Personal Portfolio",
+      "subtitle": "Design. Code. Showcase.",
+      "description": "A modern, responsive portfolio built to showcase my projects, skills, and experience. Features smooth animations, a dynamic project carousel, and a clean UI focused on clarity, performance, and developer-friendly structure.",
+      "image": "/images/projects/portfolio.png",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Framer Motion",
+        "CSS"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
+      "liveUrl": null
+    },
+    {
+      "id": "league-of-beans",
+      "title": "League of Beans",
+      "subtitle": "Fast-paced FPS with champion-style abilities",
+      "description": "An open-source, fan-inspired first-person shooter that blends fast, competitive gunplay with unique, champion-like abilities inspired by popular MOBA mechanics. Players choose distinct characters, battle in vibrant arenas, and experience chaotic, skill-based FPS combat.",
+      "image": "/images/projects/leagueofbeans-hero.gif",
+      "tags": [
+        "Unity",
+        "C#",
+        "FPS",
+        "Game Design",
+        "Open Source"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
+      "liveUrl": null
+    },
+    {
+      "id": "men-day",
+      "title": "Men DAY",
+      "subtitle": "Multiplayer FPS in Active Development",
+      "description": "Men DAY is an open-source multiplayer first-person shooter currently in active development, built in Unity using Mirror networking. The project centers on fast, responsive gunplay and modern FPS mechanics, including recoil systems, aim-down-sights (ADS), weapon sway, head bobbing, modular weapon switching, and randomized attachments. Men DAY is designed as an evolving FPS project, with a strong technical foundation and ongoing iteration toward refined combat, expanded gameplay systems, and multiplayer-focused experiences.",
+      "image": null,
+      "tags": [
+        "Unity",
+        "C#",
+        "FPS",
+        "Multiplayer",
+        "Mirror Networking",
+        "Game Development",
+        "Open Source"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
+      "liveUrl": null
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "work": [
+    {
+      "id": "work-idf-intel",
+      "org": "Israeli Military Intelligence",
+      "image": "/images/work/idf.jpg",
+      "positions": [
+        {
+          "id": "work-idf-tech-specialist-2020",
+          "role": "Technology Specialist",
+          "startDate": "2020-09-01",
+          "endDate": "2023-04-01",
+          "description": "Provided advanced technological support within an intelligence unit, covering IT maintenance, web development, and network/security operations.",
+          "bullets": [
+            "Maintained and supported critical IT systems and services.",
+            "Contributed to web application development and internal tools.",
+            "Implemented and maintained virtualization solutions."
+          ]
+        },
+        {
+          "id": "work-idf-lead-tech-specialist-2023",
+          "role": "Lead Tech Specialist",
+          "startDate": "2023-04-01",
+          "endDate": "2023-11-01",
+          "description": "Led a technical support team, coordinating infrastructure operations and improving reliability and processes.",
+          "bullets": [
+            "Led a team delivering technical support and operational readiness.",
+            "Oversaw infrastructure, security posture, and virtualization improvements."
+          ]
+        },
+        {
+          "id": "work-idf-consultant-instructor-2023",
+          "role": "Tech Specialist Consultant & Instructor",
+          "startDate": "2023-12-01",
+          "endDate": "2025-03-01",
+          "description": "Provided consulting and training, including curriculum creation and operational leadership for technical initiatives.",
+          "bullets": [
+            "Delivered training and built technical curricula for new personnel.",
+            "Led optimization initiatives and advised on implementation planning.",
+            "Supported web development, network administration, and project execution."
+          ]
+        },
+        {
+          "id": "work-idf-tech-specialist-2025",
+          "role": "Technology Specialist",
+          "startDate": "2025-08-01",
+          "endDate": null,
+          "description": "Ongoing technical role supporting systems, projects, and operational requirements.",
+          "bullets": [
+            "Supporting technical operations and internal tooling as needed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-bug-multisystem",
+      "org": "Bug Multisystem",
+      "image": "/images/work/bug.jpg",
+      "positions": [
+        {
+          "id": "work-bug-salesperson-2025",
+          "role": "Salesperson",
+          "startDate": "2025-04-01",
+          "endDate": "2025-07-01",
+          "description": "Retail sales role focused on customer guidance and tech product recommendations.",
+          "bullets": [
+            "Helped customers choose hardware and accessories based on needs and budget.",
+            "Maintained a high-quality customer experience and product knowledge."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-fiverr",
+      "org": "Fiverr",
+      "image": "/images/work/fiverr.jpg",
+      "positions": [
+        {
+          "id": "work-fiverr-it-support-2017",
+          "role": "Freelance IT Support",
+          "startDate": "2017-02-01",
+          "endDate": "2019-07-01",
+          "description": "Provided remote IT support for clients, troubleshooting software, hardware, and networking issues.",
+          "bullets": [
+            "Resolved software/hardware/network issues with clear, fast communication.",
+            "Helped with system optimization, security hygiene, and software setup."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-open-university",
+      "org": "The Open University of Israel",
+      "image": "/images/edu/openuni.jpg",
+      "positions": [
+        {
+          "id": "edu-se-student-2023",
+          "role": "Software Engineering Student",
+          "startDate": "2023-10-01",
+          "endDate": null,
+          "description": "Computer Software Engineering studies.",
+          "bullets": []
+        }
+      ]
+    },
+    {
+      "id": "edu-programming-hub",
+      "org": "Programming Hub",
+      "image": "/images/edu/programminghub.jpg",
+      "positions": [
+        {
+          "id": "edu-html-cert-2024",
+          "role": "Web Structuring Course (HTML Certification)",
+          "startDate": "2024-01-01",
+          "endDate": "2024-03-01",
+          "description": "HTML-focused certification covering fundamentals and structure best practices.",
+          "bullets": [
+            "HTML",
+            "Website structuring & optimization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edu-idf-courses",
+      "org": "Israeli Military Intelligence",
+      "image": "/images/edu/idf.jpg",
+      "positions": [
+        {
+          "id": "edu-atlantis-course-2020",
+          "role": "Snunit (Atlantis) Course",
+          "startDate": "2020-08-01",
+          "endDate": "2020-10-01",
+          "description": "Technical foundation course covering scripting, IT, and networking.",
+          "bullets": [
+            "Python",
+            "PowerShell & Bash scripting",
+            "Cisco",
+            "Hardware",
+            "Linux",
+            "Windows administration"
+          ]
+        },
+        {
+          "id": "edu-commander-course-2022",
+          "role": "Commander Course",
+          "startDate": "2022-06-01",
+          "endDate": "2022-07-01",
+          "description": "Leadership and instruction course.",
+          "bullets": [
+            "Leadership",
+            "Teaching",
+            "Team management",
+            "Time management",
+            "Presentation skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edu-ironib-highschool",
+      "org": "Ironi B named after Yitzhak Rabin Modi'in",
+      "image": "/images/edu/ironib.jpg",
+      "positions": [
+        {
+          "id": "edu-matriculation-2020",
+          "role": "Matriculation Diploma",
+          "startDate": "2017-09-01",
+          "endDate": "2020-06-01",
+          "description": "Software engineering program in high school.",
+          "bullets": [
+            "Java",
+            "Web",
+            "C#",
+            "Python"
+          ]
+        }
+      ]
+    }
+  ]
+}

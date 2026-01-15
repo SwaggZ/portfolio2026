@@ -1,10 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem("theme"); // "light" | "dark" | null
+          const systemDark =
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+          const theme = saved ? saved : systemDark ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          // if localStorage is blocked, fall back silently
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <style>
+      html.preload *,
+      html.preload *::before,
+      html.preload *::after {
+        transition: none !important;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add("preload");
+      window.addEventListener("load", () => {
+        document.documentElement.classList.remove("preload");
+      });
+    </script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/images/titleImage.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio2026</title>
+    <title>Aviv's Portfolio</title>
+
+    <meta
+      name="description"
+      content="Aviv's Portfolio – Full-stack developer & game developer. Web, backend, and game projects built with modern technologies."
+    />
+
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://avivs-portfolio.onrender.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Aviv's Portfolio" />
+    <meta
+      property="og:description"
+      content="Full-stack developer & game developer. Web, backend, and game projects built with modern technologies."
+    />
+    <meta property="og:url" content="https://avivs-portfolio.onrender.com" />
+    <meta
+      property="og:image"
+      content="https://avivs-portfolio.onrender.com/images/titleImage.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aviv's Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Full-stack developer & game developer. Web, backend, and game projects built with modern technologies."
+    />
+    <meta
+      name="twitter:image"
+      content="https://avivs-portfolio.onrender.com/images/titleImage.jpg"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aviv Tenenbaum Haddar",
+        "jobTitle": "Full Stack & Game Dev",
+        "url": "https://avivs-portfolio.onrender.com",
+        "sameAs": [
+          "https://github.com/SwaggZ",
+          "https://www.linkedin.com/in/aviv-tenenbaum-haddar-0321b821b"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

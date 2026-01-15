@@ -1,0 +1,193 @@
+/* =========================
+   Timeline Section
+   ========================= */
+.timelineSection {
+  padding: 18px;
+  border-radius: 22px;
+
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  backdrop-filter: blur(2px);
+}
+
+.timelineHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 4px 4px 14px;
+}
+
+.timelineTitle {
+  margin: 0;
+  font-size: 22px;
+}
+
+.timelineHint {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.timelineGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+/* =========================
+   Timeline Card
+   ========================= */
+.tCard {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 16px;
+  align-items: start;
+
+  padding: 18px;
+  border-radius: 18px;
+
+  background: radial-gradient(
+      1200px 400px at 10% 0%,
+      color-mix(in srgb, var(--text) 7%, transparent),
+      transparent 55%
+    ),
+    color-mix(in srgb, var(--panel) 92%, transparent);
+
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 color-mix(in srgb, var(--text) 7%, transparent);
+
+  backdrop-filter: blur(10px);
+}
+
+.tContent {
+  min-width: 0;
+}
+
+/* =========================
+   Logo
+   ========================= */
+.tLogoWrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  overflow: hidden;
+
+  display: grid;
+  place-items: center;
+
+  background: var(--chip);
+  border: 1px solid var(--chip-border);
+}
+
+.tLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* =========================
+   Header Row (Org + Dates)
+   ========================= */
+.tHeaderRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tOrg {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.tDates {
+  font-size: 13px;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+/* =========================
+   Positions
+   ========================= */
+.tPositions {
+  margin-top: 10px;
+  display: grid;
+  gap: 14px;
+}
+
+.tPos {
+  padding-top: 10px;
+  border-top: 1px solid color-mix(in srgb, var(--text) 10%, transparent);
+}
+
+.tPos:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.tPosTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.tRole {
+  font-size: 14px;
+  font-weight: 650;
+  opacity: 0.82;
+}
+
+.tPosDates {
+  font-size: 12px;
+  opacity: 0.65;
+  white-space: nowrap;
+}
+
+.tDesc {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.78;
+}
+
+.tBullets {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  opacity: 0.78;
+}
+
+.tBullets li {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+/* =========================
+   Responsive
+   ========================= */
+@media (max-width: 860px) {
+  .tCard {
+    grid-template-columns: 110px 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .tCard {
+    grid-template-columns: 56px 1fr;
+    padding: 16px;
+  }
+
+  .tOrg {
+    font-size: 16px;
+  }
+
+  .tDates {
+    font-size: 12px;
+  }
+}

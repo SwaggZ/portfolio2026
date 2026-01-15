@@ -1,0 +1,54 @@
+/* =========================
+   Footer Bar
+   ========================= */
+.footerBar {
+  margin-top: 20px;
+  padding: 18px 0;
+
+  backdrop-filter: blur(2px);
+  background: var(--panel);
+  border-top: 1px solid var(--panel-border);
+}
+
+.footerInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footerLeft {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+/* =========================
+   Footer Links
+   ========================= */
+.footerLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.footerIconBtn {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid var(--chip-border);
+  background: var(--chip);
+  color: var(--text);
+
+  cursor: pointer;
+}
+
+.footerIconBtn:hover {
+  background: color-mix(in srgb, var(--chip) 70%, transparent);
+}

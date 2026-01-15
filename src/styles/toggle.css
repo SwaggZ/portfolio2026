@@ -1,0 +1,68 @@
+/* =========================
+   Segment Toggle
+   ========================= */
+.segWrap {
+  --pad: 6px;
+  --radius: 16px;
+
+  position: relative;
+  display: inline-flex;
+  width: 320px;
+  padding: var(--pad);
+  border-radius: var(--radius);
+
+  overflow: hidden;
+
+  backdrop-filter: blur(2px);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+}
+
+/* =========================
+   Moving Background Indicator
+   ========================= */
+.segIndicator {
+  position: absolute;
+  top: var(--pad);
+  bottom: var(--pad);
+  left: var(--pad);
+
+  width: calc((100% - (var(--pad) * 3)) / 2);
+  border-radius: 12px;
+
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 color-mix(in srgb, var(--text) 8%, transparent);
+
+  transform: translateX(calc(var(--seg-x) * (100% + var(--pad))));
+  transition: transform 240ms cubic-bezier(0.2, 0.9, 0.2, 1);
+  will-change: transform;
+}
+
+/* =========================
+   Buttons
+   ========================= */
+.segBtn {
+  position: relative;
+  z-index: 1;
+
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 12px;
+
+  border: 0;
+  background: transparent;
+
+  color: var(--muted);
+  font-weight: 700;
+
+  cursor: pointer;
+  user-select: none;
+  transition: color 180ms ease;
+}
+
+.segBtn.selected {
+  color: var(--text);
+}

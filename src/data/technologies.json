@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "html",
+      "name": "HTML",
+      "fa": "faHtml5",
+      "color": "#e34f26"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "fa": "faCss3Alt",
+      "color": "#1572b6"
+    },
+    {
+      "id": "js",
+      "name": "JavaScript",
+      "fa": "faJs",
+      "color": "#f7df1e"
+    },
+    {
+      "id": "ts",
+      "name": "TypeScript",
+      "fa": "faTypeScript",
+      "color": "#3178c6"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "fa": "faReact",
+      "color": "#219abb"
+    },
+    {
+      "id": "node",
+      "name": "Node.js",
+      "fa": "faNodeJs",
+      "color": "#339933"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "fa": "faPython",
+      "color": "#3776ab"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "fa": "faJava",
+      "color": "#ea2d2e"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "fa": "faGitAlt",
+      "color": "#f05032"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "fa": "faGithub",
+      "color": "#888888"
+    },
+    {
+      "id": "flstudio",
+      "name": "Fl Studio",
+      "fa": "faPepperHot",
+      "color": "#eb7130"
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "fa": "faHashtag",
+      "color": "#a46bff"
+    },
+    {
+      "id": "rest",
+      "name": "Rest API",
+      "fa": "faCloudMeatball",
+      "color": "#03b3e8"
+    },
+    {
+      "id": "render",
+      "name": "Render Hosting",
+      "fa": "faServer",
+      "color": "#888888"
+    }
+  ]
+}
