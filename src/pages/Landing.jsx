@@ -63,14 +63,14 @@ export default function Landing() {
 
   const isMobile = () => /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-  const downloadResumePdf = () => {
+  const downloadResume = () => {
     if (isMobile()) {
-      // Open the resume page so the user can print/save from there
-      window.open("/resume", "_blank", "noopener,noreferrer");
+      // Mobile: download the hard copy
+      window.open("/Aviv Tenenbaum _ Resume.pdf", "_blank", "noopener,noreferrer");
       return;
     }
 
-    // Desktop: hidden iframe -> print dialog
+    // Desktop: dynamic print from /resume
     const iframe = document.createElement("iframe");
     iframe.style.position = "fixed";
     iframe.style.right = "0";
@@ -131,7 +131,7 @@ export default function Landing() {
               Hey, I&apos;m Aviv
             </motion.p>
             <motion.h1 className="heroTitle" variants={fadeUp}>
-              Full Stack & Game Dev from Israel
+              Full Stack & Game Dev
             </motion.h1>
             <motion.p className="heroSubtitle" variants={fadeUp}>
               Loves <span className="pill">Coding</span>,{" "}
@@ -144,7 +144,7 @@ export default function Landing() {
               {/* Resume button: text + icon */}
               <motion.button
                 className="btnPrimary btnWithIcon"
-                onClick={downloadResumePdf}
+                onClick={downloadResume}
                 variants={fadeUp}
               >
                 <span>Resume </span>
