@@ -3,6 +3,7 @@
     {
       "id": "work-idf-intel",
       "org": "Israeli Military Intelligence",
+      "score": 100,
       "image": "/images/work/idf.jpg",
       "positions": [
         {
@@ -55,6 +56,7 @@
     {
       "id": "work-bug-multisystem",
       "org": "Bug Multisystem",
+      "score": 40,
       "image": "/images/work/bug.jpg",
       "positions": [
         {
@@ -73,6 +75,7 @@
     {
       "id": "work-fiverr",
       "org": "Fiverr",
+      "score": 60,
       "image": "/images/work/fiverr.jpg",
       "positions": [
         {
@@ -117,7 +120,7 @@
           "endDate": "2024-03-01",
           "description": "HTML-focused certification covering fundamentals and structure best practices.",
           "bullets": [
-            "HTML",
+            "HTML & CSS",
             "Website structuring & optimization"
           ]
         }

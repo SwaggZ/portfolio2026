@@ -13,13 +13,14 @@
         "CSS"
       ],
       "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
-      "liveUrl": null
+      "liveUrl": null,
+      "score": 100
     },
     {
       "id": "league-of-beans",
       "title": "League of Beans",
       "subtitle": "Fast-paced FPS with champion-style abilities",
-      "description": "An open-source, fan-inspired first-person shooter that blends fast, competitive gunplay with unique, champion-like abilities inspired by popular MOBA mechanics. Players choose distinct characters, battle in vibrant arenas, and experience chaotic, skill-based FPS combat.",
+      "description": "Open-source FPS with fast gunplay and MOBA-style champion abilities, featuring distinct characters and chaotic, skill-based arena combat.",
       "image": "/images/projects/leagueofbeans-hero.gif",
       "tags": [
         "Unity",
@@ -29,13 +30,14 @@
         "Open Source"
       ],
       "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
-      "liveUrl": null
+      "liveUrl": null,
+      "score": 85
     },
     {
       "id": "men-day",
       "title": "Men DAY",
       "subtitle": "Multiplayer FPS in Active Development",
-      "description": "Men DAY is an open-source multiplayer first-person shooter currently in active development, built in Unity using Mirror networking. The project centers on fast, responsive gunplay and modern FPS mechanics, including recoil systems, aim-down-sights (ADS), weapon sway, head bobbing, modular weapon switching, and randomized attachments. Men DAY is designed as an evolving FPS project, with a strong technical foundation and ongoing iteration toward refined combat, expanded gameplay systems, and multiplayer-focused experiences.",
+      "description": "Men DAY is an open-source Unity multiplayer FPS featuring fast combat, recoil, ADS, weapon sway, and modular weapon systems. Actively developed with a growing technical foundation and multiplayer focus.",
       "image": null,
       "tags": [
         "Unity",
@@ -47,10 +49,10 @@
         "Open Source"
       ],
       "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
-      "liveUrl": null
+      "liveUrl": null,
+      "score": 70
     }
   ],
-  
   "all": [
     {
       "id": "portfolio",
@@ -65,13 +67,14 @@
         "CSS"
       ],
       "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
-      "liveUrl": null
+      "liveUrl": null,
+      "score": 100
     },
     {
       "id": "league-of-beans",
       "title": "League of Beans",
       "subtitle": "Fast-paced FPS with champion-style abilities",
-      "description": "An open-source, fan-inspired first-person shooter that blends fast, competitive gunplay with unique, champion-like abilities inspired by popular MOBA mechanics. Players choose distinct characters, battle in vibrant arenas, and experience chaotic, skill-based FPS combat.",
+      "description": "Open-source FPS with fast gunplay and MOBA-style champion abilities, featuring distinct characters and chaotic, skill-based arena combat.",
       "image": "/images/projects/leagueofbeans-hero.gif",
       "tags": [
         "Unity",
@@ -81,13 +84,14 @@
         "Open Source"
       ],
       "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
-      "liveUrl": null
+      "liveUrl": null,
+      "score": 85
     },
     {
       "id": "men-day",
       "title": "Men DAY",
       "subtitle": "Multiplayer FPS in Active Development",
-      "description": "Men DAY is an open-source multiplayer first-person shooter currently in active development, built in Unity using Mirror networking. The project centers on fast, responsive gunplay and modern FPS mechanics, including recoil systems, aim-down-sights (ADS), weapon sway, head bobbing, modular weapon switching, and randomized attachments. Men DAY is designed as an evolving FPS project, with a strong technical foundation and ongoing iteration toward refined combat, expanded gameplay systems, and multiplayer-focused experiences.",
+      "description": "Men DAY is an open-source Unity multiplayer FPS featuring fast combat, recoil, ADS, weapon sway, and modular weapon systems. Actively developed with a growing technical foundation and multiplayer focus.",
       "image": null,
       "tags": [
         "Unity",
@@ -99,7 +103,8 @@
         "Open Source"
       ],
       "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
-      "liveUrl": null
+      "liveUrl": null,
+      "score": 70
     }
   ]
 }

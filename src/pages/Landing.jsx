@@ -61,6 +61,32 @@ export default function Landing() {
     setCanonical(`${base}/`);
   }, []);
 
+  const downloadResumePdf = () => {
+    const iframe = document.createElement("iframe");
+
+    iframe.style.position = "fixed";
+    iframe.style.right = "0";
+    iframe.style.bottom = "0";
+    iframe.style.width = "0";
+    iframe.style.height = "0";
+    iframe.style.border = "0";
+    iframe.style.visibility = "hidden";
+
+    iframe.src = "/resume";
+
+    iframe.onload = () => {
+      iframe.contentWindow.focus();
+      iframe.contentWindow.print();
+
+      // cleanup after print dialog opens
+      setTimeout(() => {
+        document.body.removeChild(iframe);
+      }, 1000);
+    };
+
+    document.body.appendChild(iframe);
+  };
+
   const navigate = useNavigate();
 
   const [segment, setSegment] = useState("left");
@@ -111,7 +137,7 @@ export default function Landing() {
               {/* Resume button: text + icon */}
               <motion.button
                 className="btnPrimary btnWithIcon"
-                onClick={() => openInNewTab("/resume.pdf")}
+                onClick={downloadResumePdf}
                 variants={fadeUp}
               >
                 <span>Resume </span>

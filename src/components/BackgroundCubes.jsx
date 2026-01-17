@@ -261,6 +261,7 @@ export default function BackgroundCubes({
 
   return (
     <canvas
+      className="appBG"
       ref={canvasRef}
       aria-hidden="true"
       style={{

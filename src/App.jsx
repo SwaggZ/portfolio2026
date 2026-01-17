@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BackgroundCubes from "./components/BackgroundCubes";
 import Landing from "./pages/Landing";
 import Projects from "./pages/Projects";
+import ResumePage from "./pages/ResumePage";
 import "./App.css";
 import FooterBar from "../src/components/FooterBar";
 
@@ -25,6 +26,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<ResumePage />} />
           </Routes>
         </div>
         <FooterBar />
