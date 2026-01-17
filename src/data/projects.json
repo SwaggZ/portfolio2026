@@ -5,7 +5,7 @@
       "title": "Personal Portfolio",
       "subtitle": "Design. Code. Showcase.",
       "description": "A modern, responsive portfolio built to showcase my projects, skills, and experience. Features smooth animations, a dynamic project carousel, and a clean UI focused on clarity, performance, and developer-friendly structure.",
-      "image": "/images/projects/portfolio.png",
+      "image": "/images/projects/portfolio.webp",
       "tags": [
         "React",
         "Vite",
@@ -64,7 +64,7 @@
       "title": "Personal Portfolio",
       "subtitle": "Design. Code. Showcase.",
       "description": "A modern, responsive portfolio built to showcase my projects, skills, and experience. Features smooth animations, a dynamic project carousel, and a clean UI focused on clarity, performance, and developer-friendly structure.",
-      "image": "/images/projects/portfolio.png",
+      "image": "/images/projects/portfolio.webp",
       "tags": [
         "React",
         "Vite",
