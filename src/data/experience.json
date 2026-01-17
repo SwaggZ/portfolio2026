@@ -4,7 +4,7 @@
       "id": "work-idf-intel",
       "org": "Israeli Military Intelligence",
       "score": 100,
-      "image": "/images/work/idf.jpg",
+      "image": "/images/work/idf.webp",
       "positions": [
         {
           "id": "work-idf-tech-specialist-2020",
@@ -57,7 +57,7 @@
       "id": "work-bug-multisystem",
       "org": "Bug Multisystem",
       "score": 40,
-      "image": "/images/work/bug.jpg",
+      "image": "/images/work/bug.webp",
       "positions": [
         {
           "id": "work-bug-salesperson-2025",
@@ -76,7 +76,7 @@
       "id": "work-fiverr",
       "org": "Fiverr",
       "score": 60,
-      "image": "/images/work/fiverr.jpg",
+      "image": "/images/work/fiverr.webp",
       "positions": [
         {
           "id": "work-fiverr-it-support-2017",
@@ -96,7 +96,7 @@
     {
       "id": "edu-open-university",
       "org": "The Open University of Israel",
-      "image": "/images/edu/openuni.jpg",
+      "image": "/images/edu/openuni.webp",
       "positions": [
         {
           "id": "edu-se-student-2023",
@@ -111,7 +111,7 @@
     {
       "id": "edu-programming-hub",
       "org": "Programming Hub",
-      "image": "/images/edu/programminghub.jpg",
+      "image": "/images/edu/programminghub.webp",
       "positions": [
         {
           "id": "edu-html-cert-2024",
@@ -129,7 +129,7 @@
     {
       "id": "edu-idf-courses",
       "org": "Israeli Military Intelligence",
-      "image": "/images/edu/idf.jpg",
+      "image": "/images/edu/idf.webp",
       "positions": [
         {
           "id": "edu-atlantis-course-2020",
@@ -165,7 +165,7 @@
     {
       "id": "edu-ironib-highschool",
       "org": "Ironi B named after Yitzhak Rabin Modi'in",
-      "image": "/images/edu/ironib.jpg",
+      "image": "/images/edu/ironib.webp",
       "positions": [
         {
           "id": "edu-matriculation-2020",

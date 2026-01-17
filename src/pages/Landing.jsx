@@ -190,8 +190,8 @@ export default function Landing() {
             transition={{ duration: 0.7, delay: 0.25, ease: "easeOut" }}
           >
             <div className="photoFrame">
-              {/* Put your real photo in public/images/me.jpg */}
-              <img className="photo" src="/images/me.jpg" alt="Aviv" />
+              {/* Put your real photo in public/images/me.webp */}
+              <img className="photo" src="/images/me.webp" alt="Aviv" />
             </div>
           </motion.div>
         </motion.section>
