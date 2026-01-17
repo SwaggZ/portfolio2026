@@ -8,9 +8,12 @@
       "image": "/images/projects/portfolio.png",
       "tags": [
         "React",
-        "TypeScript",
+        "Vite",
+        "JSX",
         "Framer Motion",
-        "CSS"
+        "CSS",
+        "Render",
+        "Json"
       ],
       "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
       "liveUrl": null,
@@ -23,11 +26,13 @@
       "description": "Open-source FPS with fast gunplay and MOBA-style champion abilities, featuring distinct characters and chaotic, skill-based arena combat.",
       "image": "/images/projects/leagueofbeans-hero.gif",
       "tags": [
-        "Unity",
         "C#",
         "FPS",
+        "Multiplayer",
+        "Mirror Networking",
         "Game Design",
-        "Open Source"
+        "Game Development",
+        "Unity"
       ],
       "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
       "liveUrl": null,
@@ -40,13 +45,13 @@
       "description": "Men DAY is an open-source Unity multiplayer FPS featuring fast combat, recoil, ADS, weapon sway, and modular weapon systems. Actively developed with a growing technical foundation and multiplayer focus.",
       "image": null,
       "tags": [
-        "Unity",
         "C#",
         "FPS",
         "Multiplayer",
         "Mirror Networking",
+        "Game Design",
         "Game Development",
-        "Open Source"
+        "Unity"
       ],
       "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
       "liveUrl": null,
