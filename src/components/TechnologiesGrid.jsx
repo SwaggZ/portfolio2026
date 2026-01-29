@@ -11,6 +11,7 @@ import {
   faGitAlt,
   faGithub,
   faReact,
+  faUnity,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCloudMeatball,
@@ -38,6 +39,7 @@ const iconMap = {
   faHashtag,
   faCloudMeatball,
   faServer,
+  faUnity,
 };
 
 function pickBestCols(total, width) {
