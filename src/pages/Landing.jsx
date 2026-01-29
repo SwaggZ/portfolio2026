@@ -46,7 +46,7 @@ function sortLatestFirst(items) {
 
 export default function Landing() {
   useEffect(() => {
-    const base = "https://avivs-portfolio.onrender.com"; // render domain or custom domain
+    const base = "https://avivs-portfolio.onrender.com";
     document.title = "Aviv Tenenbaum | Full Stack & Game Dev";
     setMeta(
       "description",
@@ -61,9 +61,17 @@ export default function Landing() {
     setCanonical(`${base}/`);
   }, []);
 
-  const downloadResumePdf = () => {
-    const iframe = document.createElement("iframe");
+  const isMobile = () => /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
+  const downloadResume = () => {
+    if (isMobile()) {
+      // Mobile: download the hard copy
+      window.open("/Aviv Tenenbaum _ Resume.pdf", "_blank", "noopener,noreferrer");
+      return;
+    }
+
+    // Desktop: dynamic print from /resume
+    const iframe = document.createElement("iframe");
     iframe.style.position = "fixed";
     iframe.style.right = "0";
     iframe.style.bottom = "0";
@@ -75,10 +83,9 @@ export default function Landing() {
     iframe.src = "/resume";
 
     iframe.onload = () => {
-      iframe.contentWindow.focus();
-      iframe.contentWindow.print();
+      iframe.contentWindow?.focus();
+      iframe.contentWindow?.print();
 
-      // cleanup after print dialog opens
       setTimeout(() => {
         document.body.removeChild(iframe);
       }, 1000);
@@ -124,7 +131,7 @@ export default function Landing() {
               Hey, I&apos;m Aviv
             </motion.p>
             <motion.h1 className="heroTitle" variants={fadeUp}>
-              Full Stack & Game Dev from Israel
+              Full Stack & Game Dev
             </motion.h1>
             <motion.p className="heroSubtitle" variants={fadeUp}>
               Loves <span className="pill">Coding</span>,{" "}
@@ -137,7 +144,7 @@ export default function Landing() {
               {/* Resume button: text + icon */}
               <motion.button
                 className="btnPrimary btnWithIcon"
-                onClick={downloadResumePdf}
+                onClick={downloadResume}
                 variants={fadeUp}
               >
                 <span>Resume </span>
