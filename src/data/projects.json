@@ -64,13 +64,13 @@
       "description": "REACTFLIX is a self-hosted media streaming platform built with a Flask backend and a React frontend. It supports movies and TV series, season-based posters, subtitles (Hebrew & English), pagination, genre filtering, and admin-only uploads. Designed to run fully offline on a local or internal network.",
       "image": "/images/projects/reactflix.webp",
       "tags": [
+        "React",
         "JavaScript",
         "Python",
         "Flask",
         "Media Streaming",
         "Offline System",
-        "Full Stack",
-        "Web Development"
+        "Full Stack"
       ],
       "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
       "liveUrl": null,
@@ -142,13 +142,13 @@
       "description": "REACTFLIX is a self-hosted media streaming platform built with a Flask backend and a React frontend. It supports movies and TV series, season-based posters, subtitles (Hebrew & English), pagination, genre filtering, and admin-only uploads. Designed to run fully offline on a local or internal network.",
       "image": "/images/projects/reactflix.webp",
       "tags": [
+        "React",
         "JavaScript",
         "Python",
         "Flask",
         "Media Streaming",
         "Offline System",
-        "Full Stack",
-        "Web Development"
+        "Full Stack"
       ],
       "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
       "liveUrl": null,
