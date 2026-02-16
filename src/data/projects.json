@@ -56,6 +56,44 @@
       "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
       "liveUrl": null,
       "score": 70
+    },
+    {
+      "id": "reactflix",
+      "title": "REACTFLIX",
+      "subtitle": "Offline Media Streaming Platform",
+      "description": "REACTFLIX is a self-hosted media streaming platform built with a Flask backend and a React frontend. It supports movies and TV series, season-based posters, subtitles (Hebrew & English), pagination, genre filtering, and admin-only uploads. Designed to run fully offline on a local or internal network.",
+      "image": "/images/projects/portfolio.webp",
+      "tags": [
+        "JavaScript",
+        "Python",
+        "Flask",
+        "Media Streaming",
+        "Offline System",
+        "Full Stack",
+        "Web Development"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
+      "liveUrl": null,
+      "score": 85
+    },
+    {
+      "id": "out-of-phase",
+      "title": "Out of Phase",
+      "subtitle": "Dimension-switching cyberpunk detective game",
+      "description": "A first-person Unity investigation game where you shift between five overlapping dimensions to solve puzzles and track an interdimensional killer. Focused on immersive exploration, layered environments, and a distinct cyberpunk atmosphere.",
+      "image": null,
+      "tags": [
+        "C#",
+        "Unity",
+        "First-Person",
+        "Puzzle",
+        "Narrative",
+        "Game Design",
+        "URP"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/Out_of_Phase",
+      "liveUrl": null,
+      "score": 95
     }
   ],
   "all": [
@@ -115,6 +153,44 @@
       "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
       "liveUrl": null,
       "score": 70
+    },
+    {
+      "id": "reactflix",
+      "title": "REACTFLIX",
+      "subtitle": "Offline Media Streaming Platform",
+      "description": "REACTFLIX is a self-hosted media streaming platform built with a Flask backend and a React frontend. It supports movies and TV series, season-based posters, subtitles (Hebrew & English), pagination, genre filtering, and admin-only uploads. Designed to run fully offline on a local or internal network.",
+      "image": "/images/projects/portfolio.webp",
+      "tags": [
+        "JavaScript",
+        "Python",
+        "Flask",
+        "Media Streaming",
+        "Offline System",
+        "Full Stack",
+        "Web Development"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
+      "liveUrl": null,
+      "score": 85
+    },
+    {
+      "id": "out-of-phase",
+      "title": "Out of Phase",
+      "subtitle": "Dimension-switching cyberpunk detective game",
+      "description": "A first-person Unity investigation game where you shift between five overlapping dimensions to solve puzzles and track an interdimensional killer. Focused on immersive exploration, layered environments, and a distinct cyberpunk atmosphere.",
+      "image": null,
+      "tags": [
+        "C#",
+        "Unity",
+        "First-Person",
+        "Puzzle",
+        "Narrative",
+        "Game Design",
+        "URP"
+      ],
+      "sourceUrl": "https://github.com/SwaggZ/Out_of_Phase",
+      "liveUrl": null,
+      "score": 95
     }
   ]
 }
