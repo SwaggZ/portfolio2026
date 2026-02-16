@@ -83,6 +83,12 @@
       "name": "Render Hosting",
       "fa": "faServer",
       "color": "#888888"
+    },
+    {
+      "id": "unity",
+      "name": "Unity Game Engine",
+      "fa": "faUnity",
+      "color": "#888888"
     }
   ]
 }

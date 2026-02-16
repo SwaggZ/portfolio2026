@@ -73,7 +73,7 @@ export default function ProjectsCarousel({ projects = [], onViewMore }) {
         {/* HEADER */}
         <div className="projCardHeader">
           <div>
-            <h2 className="projTitle">My Projects</h2>
+            <h2 className="projTitle">Featured Projects</h2>
             <p className="projSubtitle">
               Swipe through couple of my favorite personal projects.
             </p>
