@@ -227,7 +227,9 @@ export default function Landing() {
         </motion.section>
         <motion.div variants={fadeUp} initial="hidden" animate="visible">
           <ProjectsCarousel
-            projects={(projectsData.featured ?? []).slice(0, 5)}
+            projects={(projectsData.featured ?? [])
+              .sort((a, b) => (b.score || 0) - (a.score || 0))
+              .slice(0, 5)}
             onViewMore={() => navigate("/projects")}
           />
         </motion.div>

@@ -43,7 +43,8 @@ export default function Projects() {
     setCanonical(`${base}/projects`);
   }, []);
 
-  const allProjects = projectsData.all ?? projectsData.featured ?? []; // supports both structures
+  const allProjects = (projectsData.all ?? projectsData.featured ?? [])
+    .sort((a, b) => (b.score || 0) - (a.score || 0)); // sort by score descending
 
   const [query, setQuery] = useState("");
   const [tag, setTag] = useState("All");
