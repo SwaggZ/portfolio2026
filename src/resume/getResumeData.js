@@ -7,7 +7,7 @@ import technologies from "../data/technologies.json";
 ======================= */
 const MAX_PROJECTS = 3;
 const MAX_WORK = 2;
-const MAX_POSITIONS_PER_ORG = 2;
+const MAX_POSITIONS_PER_ORG = 3;
 const MAX_EDU = 5;
 const MAX_SKILLS = 12;
 

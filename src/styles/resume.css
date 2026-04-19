@@ -206,7 +206,7 @@
    ========================= */
 @page {
   size: A4;
-  margin: 10mm;
+  margin: 12mm;
 }
 
 @media print {
@@ -263,11 +263,6 @@
     margin: 1px 0;
   }
 
-  /* Hide description paragraphs in work/project items to save space */
-  .rItemDesc {
-    display: none !important;
-  }
-
   /* Typography scale */
   .rName {
     font-size: 22px;
@@ -295,8 +290,13 @@
   }
 
   .rP,
+  .rItemDesc,
   .rBullets {
     font-size: 10px;
+  }
+
+  .rItemDesc {
+    margin-top: 2px;
   }
 
   .rItemTitle {
