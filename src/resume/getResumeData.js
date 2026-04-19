@@ -7,6 +7,7 @@ import technologies from "../data/technologies.json";
 ======================= */
 const MAX_PROJECTS = 3;
 const MAX_WORK = 2;
+const MAX_POSITIONS_PER_ORG = 2;
 const MAX_EDU = 5;
 const MAX_SKILLS = 12;
 
@@ -30,14 +31,16 @@ function getTopWork(exp, topN) {
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
     .slice(0, topN)
     .flatMap((org) =>
-      (org.positions ?? []).map((p) => ({
-        org: org.org,
-        role: p.role,
-        start: formatDate(p.startDate),
-        end: formatDate(p.endDate),
-        description: p.description,
-        bullets: (p.bullets ?? []).slice(0, 2),
-      }))
+      (org.positions ?? [])
+        .slice(-MAX_POSITIONS_PER_ORG)
+        .map((p) => ({
+          org: org.org,
+          role: p.role,
+          start: formatDate(p.startDate),
+          end: formatDate(p.endDate),
+          description: p.description,
+          bullets: (p.bullets ?? []).slice(0, 2),
+        }))
     );
 }
 
