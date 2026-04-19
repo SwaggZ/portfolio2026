@@ -1,6 +1,25 @@
 {
   "featured": [
     {
+      "id": "semoriq",
+      "title": "SemorIQ",
+      "subtitle": "Plan smarter. Study better.",
+      "description": "A full-stack academic planning SaaS built with Next.js, Supabase, and Tailwind. Features semester management, course tracking, Kanban task boards, collaborative notebooks with a canvas editor, real-time presence, Google OAuth, i18n support (English, Hebrew, Spanish), and a freemium billing system. Deployed on Vercel with Cloudflare DNS.",
+      "image": "/images/projects/Sign Up or Log In with Google on SemorIQ.gif",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Full Stack",
+        "SaaS"
+      ],
+      "sourceUrl": null,
+      "liveUrl": "https://semoriq.com",
+      "score": 100
+    },
+    {
       "id": "portfolio",
       "title": "Personal Portfolio",
       "subtitle": "Design. Code. Showcase.",
@@ -17,7 +36,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
       "liveUrl": null,
-      "score": 100
+      "score": 95
     },
     {
       "id": "out-of-phase",
@@ -36,7 +55,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/Out_of_Phase",
       "liveUrl": "https://dambel.itch.io/out-of-phase",
-      "score": 95
+      "score": 90
     },
     {
       "id": "reactflix",
@@ -55,7 +74,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
       "liveUrl": null,
-      "score": 90
+      "score": 85
     },
     {
       "id": "blade-spinners",
@@ -74,49 +93,30 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/BladeSpinners",
       "liveUrl": null,
-      "score": 85
-    },
-    {
-      "id": "league-of-beans",
-      "title": "League of Beans",
-      "subtitle": "Fast-paced FPS with champion-style abilities",
-      "description": "Open-source FPS with fast gunplay and MOBA-style champion abilities, featuring distinct characters and chaotic, skill-based arena combat.",
-      "image": "/images/projects/leagueofbeans-hero.gif",
-      "tags": [
-        "C#",
-        "FPS",
-        "Multiplayer",
-        "Mirror Networking",
-        "Game Design",
-        "Game Development",
-        "Unity"
-      ],
-      "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
-      "liveUrl": null,
       "score": 80
-    },
-    {
-      "id": "men-day",
-      "title": "Men DAY",
-      "subtitle": "Multiplayer FPS in Active Development",
-      "description": "Men DAY is an open-source Unity multiplayer FPS featuring fast combat, recoil, ADS, weapon sway, and modular weapon systems. Actively developed with a growing technical foundation and multiplayer focus.",
-      "image": null,
-      "tags": [
-        "C#",
-        "FPS",
-        "Multiplayer",
-        "Mirror Networking",
-        "Game Design",
-        "Game Development",
-        "Unity"
-      ],
-      "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
-      "liveUrl": null,
-      "score": 70
     }
   ],
   "all": [
     {
+      "id": "semoriq",
+      "title": "SemorIQ",
+      "subtitle": "Plan smarter. Study better.",
+      "description": "A full-stack academic planning SaaS built with Next.js, Supabase, and Tailwind. Features semester management, course tracking, Kanban task boards, collaborative notebooks with a canvas editor, real-time presence, Google OAuth, i18n support (English, Hebrew, Spanish), and a freemium billing system. Deployed on Vercel with Cloudflare DNS.",
+      "image": "/images/projects/Sign Up or Log In with Google on SemorIQ.gif",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Full Stack",
+        "SaaS"
+      ],
+      "sourceUrl": null,
+      "liveUrl": "https://semoriq.com",
+      "score": 100
+    },
+    {
       "id": "portfolio",
       "title": "Personal Portfolio",
       "subtitle": "Design. Code. Showcase.",
@@ -133,7 +133,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
       "liveUrl": null,
-      "score": 100
+      "score": 95
     },
     {
       "id": "out-of-phase",
@@ -152,7 +152,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/Out_of_Phase",
       "liveUrl": "https://dambel.itch.io/out-of-phase",
-      "score": 95
+      "score": 90
     },
     {
       "id": "reactflix",
@@ -171,7 +171,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
       "liveUrl": null,
-      "score": 90
+      "score": 85
     },
     {
       "id": "blade-spinners",
@@ -190,7 +190,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/BladeSpinners",
       "liveUrl": null,
-      "score": 85
+      "score": 80
     },
     {
       "id": "league-of-beans",
@@ -209,7 +209,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/LeagueOfBeans.git",
       "liveUrl": null,
-      "score": 80
+      "score": 75
     },
     {
       "id": "men-day",
@@ -228,7 +228,7 @@
       ],
       "sourceUrl": "https://github.com/SwaggZ/01---Men-DAY.git",
       "liveUrl": null,
-      "score": 70
+      "score": 65
     }
   ]
 }
