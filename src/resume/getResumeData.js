@@ -36,6 +36,7 @@ function getTopWork(exp, topN, maxPositionsPerOrg) {
     .flatMap((org) =>
       (org.positions ?? [])
         .slice(-maxPositionsPerOrg)
+        .reverse()
         .map((p) => ({
           org: org.org,
           role: p.role,
