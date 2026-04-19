@@ -3,13 +3,16 @@ import projects from "../data/projects.json";
 import technologies from "../data/technologies.json";
 
 /* =======================
-   Limits (1-page control)
+   Default limits (1-page control)
+   Override via the `limits` parameter.
 ======================= */
-const MAX_PROJECTS = 3;
-const MAX_WORK = 2;
-const MAX_POSITIONS_PER_ORG = 3;
-const MAX_EDU = 5;
-const MAX_SKILLS = 12;
+export const RESUME_DEFAULTS = {
+  maxProjects: 3,
+  maxWork: 2,
+  maxPositionsPerOrg: 3,
+  maxEdu: 5,
+  maxSkills: 12,
+};
 
 /* =======================
    Helpers
@@ -25,14 +28,14 @@ function formatDate(iso) {
 /* =======================
    Normalize Work (Top scored)
 ======================= */
-function getTopWork(exp, topN) {
+function getTopWork(exp, topN, maxPositionsPerOrg) {
   return (exp.work ?? [])
     .slice()
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
     .slice(0, topN)
     .flatMap((org) =>
       (org.positions ?? [])
-        .slice(-MAX_POSITIONS_PER_ORG)
+        .slice(-maxPositionsPerOrg)
         .map((p) => ({
           org: org.org,
           role: p.role,
@@ -83,7 +86,9 @@ function getTopProjects(maxProjects) {
 /* =======================
    Main Export
 ======================= */
-export function getResumeData() {
+export function getResumeData(limits = {}) {
+  const o = { ...RESUME_DEFAULTS, ...limits };
+
   return {
     header: {
       name: "Aviv Tenenbaum Haddar",
@@ -103,12 +108,12 @@ export function getResumeData() {
     summary:
       "Software engineering student driven to build polished web and Unity products, with a strong foundation in full-stack development, IT, networking, and intelligence systems.",
 
-    projects: getTopProjects(MAX_PROJECTS),
-    work: getTopWork(experience, MAX_WORK),
-    education: getEducation(experience, MAX_EDU),
+    projects: getTopProjects(o.maxProjects),
+    work: getTopWork(experience, o.maxWork, o.maxPositionsPerOrg),
+    education: getEducation(experience, o.maxEdu),
     skills: (technologies.items ?? [])
       .map((t) => t.name)
       .filter(Boolean)
-      .slice(0, MAX_SKILLS),
+      .slice(0, o.maxSkills),
   };
 }

@@ -1,4 +1,4 @@
-import { getResumeData } from "../resume/getResumeData";
+import useAutoFitResume from "../hooks/useAutoFitPage";
 import "../styles/resume.css";
 
 function Section({ title, children }) {
@@ -10,26 +10,39 @@ function Section({ title, children }) {
   );
 }
 
-function ProjectTitle({ title, sourceUrl, tags }) {
-  const top = (
-    <div className="rItemTop">
-      <div className="rItemTitle">{title}</div>
-      {tags?.length ? (
-        <div className="rItemMeta">{tags.slice(0, 4).join(" · ")}</div>
-      ) : null}
-    </div>
-  );
+function ProjectItem({ p }) {
+  return (
+    <div className="rItem">
+      <div className="rItemTop">
+        <div className="rItemTitle">{p.title}</div>
+        {p.tags?.length ? (
+          <div className="rItemMeta">{p.tags.slice(0, 4).join(" · ")}</div>
+        ) : null}
+      </div>
 
-  return sourceUrl ? (
-    <a className="rMiniLink" href={sourceUrl}>
-      {top}
-    </a>
-  ) : (
-    top
+      {p.subtitle ? <div className="rItemSub">{p.subtitle}</div> : null}
+      {p.description ? <div className="rItemDesc">{p.description}</div> : null}
+
+      {(p.liveUrl || p.sourceUrl) && (
+        <div className="rItemLinks">
+          {p.liveUrl && (
+            <a className="rMiniLink" href={p.liveUrl}>
+              Live
+            </a>
+          )}
+          {p.sourceUrl && (
+            <a className="rMiniLink" href={p.sourceUrl}>
+              Source
+            </a>
+          )}
+        </div>
+      )}
+    </div>
   );
 }
 
 export default function ResumePage() {
+  const { pageRef, data } = useAutoFitResume();
   const {
     header = {},
     skills = [],
@@ -37,12 +50,12 @@ export default function ResumePage() {
     work = [],
     education = [],
     summary = "",
-  } = getResumeData();
+  } = data;
 
   const { links = [] } = header;
 
   return (
-    <main className="rPage">
+    <main className="rPage" ref={pageRef}>
       <header className="rTop">
         <div>
           <h1 className="rName">{header.name ?? "Your Name"}</h1>
@@ -75,28 +88,7 @@ export default function ResumePage() {
           <Section title="Key Projects">
             <div className="rList">
               {projects.map((p) => (
-                <div key={p.id ?? p.title} className="rItem">
-                  <ProjectTitle
-                    title={p.title}
-                    sourceUrl={p.sourceUrl}
-                    tags={p.tags}
-                  />
-
-                  {p.subtitle ? (
-                    <div className="rItemSub">{p.subtitle}</div>
-                  ) : null}
-                  {p.description ? (
-                    <div className="rItemDesc">{p.description}</div>
-                  ) : null}
-
-                  {p.liveUrl ? (
-                    <div className="rItemLinks">
-                      <a className="rMiniLink" href={p.liveUrl}>
-                        Live
-                      </a>
-                    </div>
-                  ) : null}
-                </div>
+                <ProjectItem key={p.id ?? p.title} p={p} />
               ))}
             </div>
           </Section>
