@@ -20,6 +20,25 @@
       "score": 100
     },
     {
+      "id": "aprtly",
+      "title": "Aprtly",
+      "subtitle": "Home, in one place.",
+      "description": "A full-stack household management operating system built with Next.js, TypeScript, Prisma, and PostgreSQL. Features pantry and grocery tracking with expiration alerts, storage-powered recipe recommendations, automated chore rotations, plant care tracking with in-browser camera compression, shared budgeting & savings goals, multi-part workout routines, topic-based decision notes with per-device author memory, 7 dynamic theme palettes, and an ambient touch-enabled Kiosk mode with auto-scrolling lists. Deployed on Vercel with PWA support.",
+      "image": "/images/projects/aprtly.webp",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Full Stack",
+        "PWA"
+      ],
+      "sourceUrl": null,
+      "liveUrl": "https://www.aprtly.com",
+      "score": 98
+    },
+    {
       "id": "portfolio",
       "title": "Personal Portfolio",
       "subtitle": "Design. Code. Showcase.",
@@ -37,44 +56,6 @@
       "sourceUrl": "https://github.com/SwaggZ/portfolio2026.git",
       "liveUrl": null,
       "score": 95
-    },
-    {
-      "id": "out-of-phase",
-      "title": "Out of Phase",
-      "subtitle": "Dimension-switching cyberpunk detective game",
-      "description": "A first-person Unity investigation game where you shift between five overlapping dimensions to solve puzzles and track an interdimensional killer. Focused on immersive exploration, layered environments, and a distinct cyberpunk atmosphere.",
-      "image": null,
-      "tags": [
-        "C#",
-        "Unity",
-        "First-Person",
-        "Puzzle",
-        "Narrative",
-        "Game Design",
-        "URP"
-      ],
-      "sourceUrl": "https://github.com/SwaggZ/Out_of_Phase",
-      "liveUrl": "https://dambel.itch.io/out-of-phase",
-      "score": 90
-    },
-    {
-      "id": "reactflix",
-      "title": "REACTFLIX",
-      "subtitle": "Offline Media Streaming Platform",
-      "description": "REACTFLIX is a self-hosted media streaming platform built with a Flask backend and a React frontend. It supports movies and TV series, season-based posters, subtitles (Hebrew & English), pagination, genre filtering, and admin-only uploads. Designed to run fully offline on a local or internal network.",
-      "image": "/images/projects/reactflix.webp",
-      "tags": [
-        "JavaScript",
-        "Python",
-        "Flask",
-        "Media Streaming",
-        "Offline System",
-        "Full Stack",
-        "Web Development"
-      ],
-      "sourceUrl": "https://github.com/SwaggZ/ReactFlix.git",
-      "liveUrl": null,
-      "score": 85
     },
     {
       "id": "blade-spinners",
@@ -115,6 +96,25 @@
       "sourceUrl": null,
       "liveUrl": "https://semoriq.com",
       "score": 100
+    },
+    {
+      "id": "aprtly",
+      "title": "Aprtly",
+      "subtitle": "Home, in one place.",
+      "description": "A full-stack household management operating system built with Next.js, TypeScript, Prisma, and PostgreSQL. Features pantry and grocery tracking with expiration alerts, storage-powered recipe recommendations, automated chore rotations, plant care tracking with in-browser camera compression, shared budgeting & savings goals, multi-part workout routines, topic-based decision notes with per-device author memory, 7 dynamic theme palettes, and an ambient touch-enabled Kiosk mode with auto-scrolling lists. Deployed on Vercel with PWA support.",
+      "image": "/images/projects/aprtly.webp",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Full Stack",
+        "PWA"
+      ],
+      "sourceUrl": null,
+      "liveUrl": "https://www.aprtly.com",
+      "score": 98
     },
     {
       "id": "portfolio",
